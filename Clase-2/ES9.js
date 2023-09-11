@@ -19,3 +19,15 @@ const objetoResultado ={...objeto1, ...objeto2}
 
 console.log(objetoResultado)
 
+//REST OPERATOR
+
+const objeto3 = {
+    propiedad1: 2,
+    propiedad2: 'b',
+    propiedad3: true
+
+};
+
+const {propiedad1: propiedadNombre, ...result} = objeto3
+console.log(propiedadNombre)
+console.log(result)
