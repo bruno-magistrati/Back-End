@@ -31,7 +31,7 @@ class UserManager {
                 usuario.id = users[users.length - 1].id + 1;
             }
 
-            //inseramos el elemento o usuario
+            //insertamos el elemento o usuario
             users.push(usuario);
 
             //una vez que ya hemos terminado el procesamiento 

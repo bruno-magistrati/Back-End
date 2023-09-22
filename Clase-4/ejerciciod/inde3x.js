@@ -1,4 +1,4 @@
-const { UserManager} = require('./managers/UserManager')
+const { UserManager} = require('./managers/UserManager3')
 
 const manager = new UserManager('./files/Usuarios.json');
 
